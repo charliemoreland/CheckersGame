@@ -1,0 +1,125 @@
+html, body {
+ background-color: steelblue;
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+h1{
+  font-size: 55px;
+  padding-bottom: 5px;
+}
+p{
+  font-size: 15px;
+}
+
+.square {
+  width: 81.25px;
+  height: 81.25px;
+  float: left;
+}
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blackChecker{
+  width: 35px;
+  height: 35px;
+  padding: 12px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.redChecker{
+  width: 35px;
+  height: 35px;
+  padding: 12px;
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.noPiecehere{
+  background-color: red;
+}
+
+#board{
+  float: right;
+  margin-right: 50px;
+  margin-top: -270px;
+  border: 10px solid dimgrey;
+  border-radius: 15px;
+}
+td{
+background-color: black;
+width: 85px;
+height: 85px;
+text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+.textunits {
+ margin-top: 300px;
+ margin-left: 100px;
+}
+
+.gameDesign {
+  border: 5px solid black;
+  border-radius: 15px ;
+  float: left;
+  height: 210px;
+  width: 500px;
+  margin-left: 20px;
+  background-color: white;
+  font-family: cursive;
+  text-align: center;
+}
+
+.name1 {
+  margin-top: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+.name2 {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-align: center;
+
+}
+#leaderboard {
+  margin-top: 450px;
+  width: 100px;
+  height: 30px;
+  float: left;
+  margin-left: 10px;
+}
+
+#player{
+  width: 10%;
+}
+#count{
+  width: 30%;
+}
